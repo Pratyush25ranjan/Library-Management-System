@@ -1,0 +1,87 @@
+{
+    "books": [
+        {
+            "author": "Sachin Tendulkar",
+            "available": true,
+            "id": 1,
+            "location": "Shelf A1",
+            "title": "Playing It My Way",
+            "uniqueCode": "AB101"
+        },
+        {
+            "author": "Amar Pandey",
+            "available": true,
+            "id": 2,
+            "location": "Shelf A2",
+            "title": "Advanced Mathematics",
+            "uniqueCode": "CB101"
+        },
+        {
+            "author": "Sohail Ahmad Sir",
+            "available": false,
+            "id": 10001,
+            "location": "UpperShelf A2",
+            "title": "OOPS",
+            "uniqueCode": "OOPS1"
+        }
+    ],
+    "students": [
+        {
+            "email": "shivamkumar123@gmail.com",
+            "id": 102,
+            "name": "Shivam Kumar",
+            "password": "122333",
+            "subscriptionStatus": true
+        },
+        {
+            "email": "krishna@gmail.com",
+            "id": 103,
+            "name": "Krishna Kumar",
+            "password": "123456",
+            "subscriptionStatus": false
+        },
+        {
+            "email": "pratyush2507ranjan@gmail.com",
+            "id": 101,
+            "name": "Pratyush Ranjan",
+            "password": "1234567",
+            "subscriptionStatus": true
+        },
+        {
+            "email": "Adarsh@gmail.com",
+            "id": 104,
+            "name": "Adarsh Kumar",
+            "password": "12345678",
+            "subscriptionStatus": true
+        },
+        {
+            "email": "Rimam1234@gmail.com",
+            "id": 105,
+            "name": "Rashid Imam",
+            "password": "111222",
+            "subscriptionStatus": true
+        }
+    ],
+    "subscriptions": [
+        {
+            "endDate": "10-10-2026",
+            "startDate": "10-10-2025",
+            "studentId": 102
+        },
+        {
+            "endDate": "30-10-2026",
+            "startDate": "30-10-2025",
+            "studentId": 104
+        },
+        {
+            "endDate": "30-10-2026",
+            "startDate": "30-10-2025",
+            "studentId": 101
+        },
+        {
+            "endDate": "23-11-2025",
+            "startDate": "23-10-2025",
+            "studentId": 105
+        }
+    ]
+}
